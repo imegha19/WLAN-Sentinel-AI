@@ -1,0 +1,48 @@
+{
+  "file_name": "sample_traffic.csv",
+  "file_size_bytes": 149,
+  "total_rows": 5,
+  "total_columns": 4,
+  "chunks_read": 1,
+  "columns": [
+    "duration",
+    "packet_count",
+    "bytes_sent",
+    "label"
+  ],
+  "schema": [
+    {
+      "column": "duration",
+      "first_chunk_dtype": "int64",
+      "missing_values": 0,
+      "missing_percent": 0.0
+    },
+    {
+      "column": "packet_count",
+      "first_chunk_dtype": "int64",
+      "missing_values": 0,
+      "missing_percent": 0.0
+    },
+    {
+      "column": "bytes_sent",
+      "first_chunk_dtype": "int64",
+      "missing_values": 0,
+      "missing_percent": 0.0
+    },
+    {
+      "column": "label",
+      "first_chunk_dtype": "str",
+      "missing_values": 0,
+      "missing_percent": 0.0
+    }
+  ],
+  "label_column_candidates": [
+    "label"
+  ],
+  "inspection_notes": [
+    "Inspection only; no model was trained.",
+    "First-chunk data types may not capture mixed types later in the file.",
+    "Label candidates are suggestions and must be verified against dataset documentation.",
+    "Real-world WLAN intrusion detection has not been established by this inspection."
+  ]
+}

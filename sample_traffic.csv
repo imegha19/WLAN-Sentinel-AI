@@ -1,0 +1,7 @@
+
+duration,packet_count,bytes_sent,label
+12,120,4500,Normal
+15,135,5200,Normal
+2,900,85000,Suspicious
+9,110,3900,Normal
+1,1200,110000,Suspicious
